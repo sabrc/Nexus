@@ -1,0 +1,76 @@
+
+
+
+     NEXUS
+   Nexus: Repo Management Tool olduğu için birçok safhada kullanılabilir. Asıl kullanım yeri Continuous Delivery olabilir.
+   Artifact Repositoryler: Maven Central,Docker Hub,PyPI (Python Package Index),NuGet,Nexus (edited) 
+   Nexus , geliştirme için gerekli yapıtları organize eden, depolayan ve dağıtan bir havuz yöneticisidir. Nexus ile geliştiriciler, 
+bir kuruluştaki her yapıya erişimi ve bunların dağıtımını tek bir konumdan tamamen kontrol edebilir ve bu da yazılım dağıtımını kolaylaştırır.
+  Git, kod yönetimi için kullanılırken, Nexus, derleme sırasında oluşan dosyaların saklanması ve paylaşılması için kullanılır.
+  Artifact repository, bir yazılımın derlenmesi, paketlenmesi ve dağıtımı gibi süreçlerde sanal çıktıları yönetmek için kullanılırken, 
+versiyon kontrol deposu, bir yazılım projesindeki kaynak kodlarının yönetimi ve sürüm kontrolü için kullanılır.
+
+  Yazılım literatüründe "nexus" terimi, genellikle farklı yazılım bileşenleri arasındaki bağlantı noktalarını ifade etmek için kullanılır. 
+Nexus, farklı yazılım bileşenlerinin bir araya getirilmesi veya entegrasyonu sırasında, bu bileşenlerin birbirleriyle etkileşim kurmasını 
+sağlayan bir yapıdır.
+
+Yazılım geliştirme sürecinde, nexus kavramı, yazılım bileşenlerinin uygun şekilde birleştirilmesini ve entegrasyonunu sağlamak için kullanılır. 
+Bu işlem, farklı yazılım bileşenlerinin bir arada çalışabilmesi için gereklidir. Nexus, farklı yazılım bileşenlerinin birbirleriyle 
+iletişim kurmasına olanak tanır ve bu nedenle, yazılımın işlevselliğini sağlamak için önemlidir.
+
+Nexus kavramı ayrıca, farklı yazılım geliştirme ekipleri arasındaki koordinasyonu ve işbirliğini ifade edebilir. Örneğin, bir yazılım projesinde,
+ yazılım mühendisleri, tasarımcılar ve test uzmanları arasındaki etkileşim ve koordinasyon, bir nexus oluşturmanın önemli bir parçasıdır.
+ Bu, farklı ekiplerin bir arada çalışabilmesini ve yazılım geliştirme sürecinin daha verimli ve başarılı olmasını sağlar.
+
+Sonuç olarak, yazılım literatüründe "nexus" terimi, farklı yazılım bileşenleri arasındaki bağlantı noktalarını ifade etmek ve 
+yazılım bileşenlerinin uygun şekilde birleştirilmesi ve entegrasyonunu sağlamak için kullanılan bir terimdir.
+
+
+  Yazılım literatüründe "nexus" terimi, farklı yazılım bileşenleri arasındaki bağlantı noktalarını ifade eder ve bu bileşenlerin uygun şekilde
+ birleştirilmesi ve entegrasyonunu sağlar. Nexus, bir yazılım sisteminin işlevselliğini sağlamak için önemlidir ve yazılım geliştirme sürecinde
+ birkaç önemli rol oynar.
+
+Bir yazılım projesinde, nexus'un başlıca işlevleri şunlardır:
+
+Yazılım bileşenlerini birleştirme: Nexus, farklı yazılım bileşenlerinin bir araya getirilmesini sağlar. Bu işlem, yazılım bileşenlerinin 
+birbirleriyle etkileşim kurmasını ve işbirliği yapmasını sağlar.
+
+Bileşenler arasındaki uyumluluğu sağlama: Nexus, farklı yazılım bileşenlerinin bir arada çalışabilmesi için gereklidir. Bu nedenle, nexus, 
+farklı bileşenler arasındaki uyumluluğu sağlamak için önemlidir.
+
+Hata ayıklama: Nexus, yazılım bileşenleri arasındaki iletişim ve entegrasyon sorunlarının tespit edilmesine yardımcı olur. Bu sayede, 
+hataların belirlenmesi ve düzeltilmesi için gerekli adımlar atılabilir.
+
+Yazılım geliştirme ekipleri arasındaki koordinasyonu sağlama: Nexus, farklı yazılım geliştirme ekipleri arasındaki koordinasyonu ve işbirliğini 
+sağlamak için kullanılır. Bu sayede, farklı ekiplerin bir arada çalışabilmesi ve yazılım geliştirme sürecinin daha verimli olması sağlanabilir.
+
+Yazılım bileşenlerinin test edilmesi: Nexus, farklı yazılım bileşenlerinin bir araya getirilmesinden sonra, bu bileşenlerin birlikte nasıl
+ çalıştığını test etmek için kullanılır. Bu sayede, yazılımın işlevselliğinin sağlanması ve kalitesinin artırılması mümkün olabilir.
+
+Sonuç olarak, yazılım literatüründe "nexus" terimi, farklı yazılım bileşenlerinin bir araya getirilmesi ve entegrasyonunu sağlayan bir terimdir.
+ Nexus, bir yazılım projesinin işlevselliğini sağlamak için önemli bir role sahiptir ve yazılım geliştirme sürecinde birkaç önemli işlevi yerine
+ getirir.
+
+  DEVOPS   otomasyon,CI & CD süreçleri ,Devamlılık ve otomasyon 
+   https://caylakyazilimci.com/post/ci-cd-nedir
+   CI/CD süreçlerini bir yarışma organizasyonu ile benzetebiliriz. Yarışma organizasyonunda, yarışmacıların yarışmaya hazırlanması, 
+yarışmacıların performanslarının değerlendirilmesi ve sonuçların açıklanması gibi aşamalar bulunur.
+Bu organizasyonu CI/CD süreçlerine benzetirsek, yarışmacıların hazırlık süreci yazılımın kodlama sürecine denk gelir. 
+Bu süreçte, yazılım geliştiricileri kodlarını yazarken, sık sık test ederek, kodlarının uyumlu ve hatasız olmasını sağlamak için 
+sürekli entegrasyon (CI) aşamasını kullanırlar.
+Yarışmanın gerçekleştiği aşama, yazılımın canlıya geçirilmesi anlamına gelir. Bu aşamada, yazılım otomatik olarak test edilir, 
+derlenir ve canlıya geçirilir. Bu süreç Continuous Delivery (Sürekli Teslimat) adı verilen süreçtir.
+Son aşama olan Continuous Deployment (Sürekli Dağıtım) ise yarışmanın sonuçlarının açıklanması anlamına gelir.
+ Bu süreçte, yazılım otomatik olarak dağıtılır ve kullanıcılara sunulur.
+Yani, CI/CD süreçleri bir yarışma organizasyonu ile benzetilebilir. Bu organizasyonda, yarışmacıların hazırlık süreci (CI),
+ yarışmanın gerçekleştiği aşama (Continuous Delivery) ve sonuçların açıklanması (Continuous Deployment) gibi aşamalar mevcuttur. 
+  
+   human readable dan bilgisayar diline cevirme
+    
+   Compile Diller: C, C++, Java, Go ve Rust
+   İnterpreter Diller: Python, Ruby, Perl ve PHP
+   from source code to artifact = build diyebilir miyiz
+
+  
+
+  
